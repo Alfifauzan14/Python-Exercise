@@ -1,7 +1,7 @@
 def persegi_panjang():
     print('='*40)
     print('\tRUMUS PERSEGI PANJANG')
-    print('='*40)
+    print('-'*40)
 
     P = int(input('MASUKAN PANJANG\t\t\t: '))
     L = int(input('MASUKAN LEBAR\t\t\t: '))

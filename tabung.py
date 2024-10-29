@@ -1,7 +1,7 @@
 def tabung():
     print("="*30)
     print("\tRUMUS TABUNG")
-    print("="*30)
+    print("-"*30)
 
     PHI = 3.14
     r = int(input('MASUKAN JARI JARI\t: '))

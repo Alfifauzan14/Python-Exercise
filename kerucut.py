@@ -1,12 +1,12 @@
 def kerucut():
     print("="*30)
     print("\tRUMUS KERUCUT")
-    print("="*30)
+    print("-"*30)
 
     PHI = 3.14
     r = int(input('MASUKAN JARI-JARI\t: '))
-    s = float(input('MASUKAN SISI\t\t: '))
-    t = float(input('MASUKAN TINGGI\t\t: '))
+    s = int(input('MASUKAN SISI\t\t: '))
+    t = int(input('MASUKAN TINGGI\t\t: '))
 
     ls = lambda r,s,t: PHI * r * s
     lp = lambda r,s,t: ( PHI * r * s ) + ( PHI * r ** 2 )

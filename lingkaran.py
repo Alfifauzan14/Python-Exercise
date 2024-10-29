@@ -1,7 +1,7 @@
 def lingkaran():
     print('='*30)
     print('\tRUMUS LINGKARAN')
-    print('='*30)
+    print('-'*30)
 
     PHI = 3.14
     r = int(input('MASUKAN JARI JARI\t: '))
